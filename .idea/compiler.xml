@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learning01-helloworld" />
+        <module name="learning02-devicetype" />
+        <module name="learning03-global-exception-handler" />
+        <module name="learning04-mysql" />
+        <module name="learning05-jpa-hibernate" />
+        <module name="learning06-jpa-save" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learning-spring-boot" target="1.8" />
+      <module name="learning01-helloworld" target="1.8" />
+      <module name="learning02-devicetype" target="1.8" />
+      <module name="learning03-global-exception-handler" target="1.8" />
+      <module name="learning04-mysql" target="1.8" />
+      <module name="learning05-jpa-hibernate" target="1.8" />
+      <module name="learning06-jpa-save" target="1.8" />
+      <module name="learning06-webhooks" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

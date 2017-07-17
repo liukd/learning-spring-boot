@@ -1,0 +1,9 @@
+ref:
+http://blog.csdn.net/xiaoyu411502/article/details/47864969
+
+一个最简单的Web应用
+使用@Controller实现URL路由
+URL中的变量——PathVariable
+支持HTTP方法
+模板渲染
+处理静态文件

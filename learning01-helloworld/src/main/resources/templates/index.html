@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My WebSocket</title>
+    <script type="text/javascript" th:src="${urls.getForLookupPath('/js/demo.js') }"></script>
+</head>
+<body>
+Welcome<br/>
+<input id="text" type="text"/>
+<div id="message" th:text="${name}">
+</div>
+<div th:text="${urls.getForLookupPath('/js/demo.js')}">
+</div>
+</body>
+</html>
